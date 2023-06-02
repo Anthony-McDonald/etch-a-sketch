@@ -1,0 +1,21 @@
+.gridContainer {
+    border: 1px red solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+.gridBox {
+    border: 1px red solid;
+    display: flex;
+    min-width: 50px;
+    flex-direction: column;   
+}
+
+.subBox {
+    border: 1px red solid;
+    display: flex;
+    min-height: 50px;
+}
