@@ -1,21 +1,36 @@
 .gridContainer {
-    border: 1px red solid;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    border: 1px black solid;
+    height: 960px;
+    width: 960px;
 
-    
 }
 
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}
 .gridBox {
-    border: 1px red solid;
+    border: 1px black solid;
     display: flex;
     min-width: 50px;
+    flex: 1 1 3%;
     flex-direction: column;   
 }
 
+.gridAll {
+    display: flex;
+    justify-content: center;
+}
 .subBox {
-    border: 1px red solid;
+    border: 1px black solid;
     display: flex;
     min-height: 50px;
+    flex: 1 1 3%;
+}
+
+.hoveredOver {
+    background-color: black;
 }
